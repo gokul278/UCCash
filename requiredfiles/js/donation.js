@@ -1,6 +1,6 @@
 $("#form2").submit((event) => {
     event.preventDefault();
-    $("#btnvvalue").val("Loading");
+    $("#submitform").val("Loading...");
     var formData = new FormData();
 
     formData.append("name", $("#name").val());
@@ -38,7 +38,7 @@ $("#form2").submit((event) => {
             console.log(res);
             var response = JSON.parse(res);
             if (response.status == "success") {
-                $("#btnvvalue").val("submit")
+                $("#submitform").val("submit")
                 $("#celebration").css("display", "block");
                 var celebrationCanvas = new CelebrationCanvas(document.getElementById('celebration'), 600, 600);
                 celebrationCanvas.animate();
