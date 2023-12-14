@@ -146,7 +146,7 @@ include('./requiredfiles/connectiondb.php');
 
         <div>
           <i class="fa fa-phone"></i>
-          <p><a href="tel:+91 9360698335"target=_blank>+91 9360698335</a></p>
+          <p><a href="tel:+91 9842434284"target=_blank>+91 9842434284</a></p>
         </div>
 
         <div>
@@ -159,13 +159,13 @@ include('./requiredfiles/connectiondb.php');
       <div class="footer-right">
 
         <p class="footer-company-about">
-          <span>About Uccash Foundation</span>
+          <span>About UCCASH Foundation</span>
           This foundation is an organization created to alleviate the hunger of the poor, provide medical assistance and protect nature and environment.
         </p>
       </div>
 
   </footer>
-    <p style="text-align: center;color: white;" class="footer-company-name">Copyright ©2023 Uccash Foundation| All rights reserved</p>
+    <p style="text-align: center;color: white;" class="footer-company-name"><b>Copyright ©2023 UCCASH Foundation| All rights reserved</b></p>
       
   
 

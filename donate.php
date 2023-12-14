@@ -203,7 +203,7 @@
 
         <div>
           
-          <p><a href="tel:+91 9360698335"target=_blank>+91 9360698335</a></p>
+          <p><a href="tel:+91 9842434284"target=_blank>+91 9842434284</a></p>
         </div>
 
         <div>
@@ -222,7 +222,7 @@
       </div>
 
     </footer>
-    <p style="text-align: center;color: white;" class="footer-company-name">Copyright ©2023 UCCASH Foundation| All rights reserved</p>
+    <p style="text-align: center;color: white;" class="footer-company-name"><b>Copyright ©2023 UCCASH Foundation| All rights reserved</b></p>
   <!-- loader -->
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
