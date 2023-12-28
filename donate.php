@@ -96,7 +96,7 @@
                 your support may never know of your generosity, UCCASH  Foundation and our beneficiaries are
                  grateful for your support.</p>
                  <p>Thank you for completing your donation below or for doing so through our sites.</p>
-            <div></div>
+                 <h2 style="color: #DAA520 ;" align="center">Enter your Personal Details</h2>
              <form id="form1">
               <div class="form-volunteer1">
               <div class="form-group">
