@@ -1,3 +1,7 @@
+<?php
+session_start();
+session_destroy();
+?>
 <html>
 
 <head>
@@ -10,26 +14,25 @@
   <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <title>UCCash - Admin</title>
+  <title>UCCash - PassKey</title>
 </head>
 
 <body>
-  <div class="main" style="height:450px">
+  <div class="main" style="height:400px">
   <div align="center"><img src="../images/uclogo.png" height="100" alt="logo"></div>
     <p class="sign" align="center">Welcome Dr.P.Balakrishnnan</p>
-    <form id="frm" class="form1" align="center">
-      <input class="un " type="text" name="username" align="center" placeholder="Username" onclick="clearerror()" required>
-      <input class="pass" type="password" name="password" align="center" placeholder="Password" onclick="clearerror()" required>
-      <p id="errormessage" style="color:red" align="center"></p>
+    <p class="sign" style="font-size:20px;color:black" align="center">Enter PassKey to Change Password</p>
+    <form id="checkpass" class="form1" align="center">
+        <input type="hidden" name="type" value="checkpasskey">
+        <input class="un " type="text" name="passkey" align="center" placeholder="PassKey" onclick="passkeyerrclear()" required>
+      <p id="checkpasserr" style="color:red" align="center"></p>
       <div align="center">
-      <button type="submit" class="submit" style="font-size:20px" align="center">Login</button>
+        <button type="submit" class="submit" style="font-size:20px" align="center">Check PassKey</button>
       </div>
-      <div style="margin-top:35px">
-        <a style="color:rgb(38, 50, 56);font-weight:600" href="verifypasskey.php">Forget Password ?</a>
-      </div>
+    </form>
       <br>
     </div>
      
 </body>
-<script src="./js/index.js"></script>
+<script src="./js/chechpasskey.js"></script>
 </html>

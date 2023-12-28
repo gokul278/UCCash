@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2023 at 06:20 AM
+-- Generation Time: Dec 28, 2023 at 09:29 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -90,15 +90,16 @@ INSERT INTO `gallery_images` (`image_id`, `image_name`) VALUES
 CREATE TABLE `login_details` (
   `admin_id` int(10) NOT NULL,
   `admin_username` varchar(50) NOT NULL,
-  `admin_password` varchar(50) NOT NULL
+  `admin_password` varchar(50) NOT NULL,
+  `admin_passkey` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `login_details`
 --
 
-INSERT INTO `login_details` (`admin_id`, `admin_username`, `admin_password`) VALUES
-(1001, 'testadmin@gmail.com', 'testadmin');
+INSERT INTO `login_details` (`admin_id`, `admin_username`, `admin_password`, `admin_passkey`) VALUES
+(1001, 'testadmin@gmail.com', 'Testadmin123', '67890');
 
 -- --------------------------------------------------------
 
