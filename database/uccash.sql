@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2023 at 06:50 AM
+-- Generation Time: Dec 28, 2023 at 06:20 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -56,7 +56,7 @@ CREATE TABLE `donation_messages` (
   `donation_zipcode` varchar(50) NOT NULL,
   `donation_country` varchar(50) NOT NULL,
   `donation_amount` varchar(50) NOT NULL,
-  `donation_image` varchar(50) NOT NULL
+  `donation_image` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
@@ -67,7 +67,7 @@ CREATE TABLE `donation_messages` (
 
 CREATE TABLE `gallery_images` (
   `image_id` int(11) NOT NULL,
-  `image_name` varchar(50) NOT NULL
+  `image_name` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
@@ -75,14 +75,10 @@ CREATE TABLE `gallery_images` (
 --
 
 INSERT INTO `gallery_images` (`image_id`, `image_name`) VALUES
-(12, '20231015075727_img-02.jpeg'),
-(13, '20231015080006_img-01.jpeg'),
-(14, '20231015080028_img-03.jpeg'),
 (15, '20231015080041_img-04.jpeg'),
 (16, '20231015080111_img-05.jpeg'),
 (17, '20231015080126_img-06.jpeg'),
 (18, '20231015080144_img-07.jpeg'),
-(19, '20231015080209_img-08.jpeg'),
 (21, '20231015080256_img-09.jpeg');
 
 -- --------------------------------------------------------
@@ -171,7 +167,7 @@ ALTER TABLE `donation_messages`
 -- AUTO_INCREMENT for table `gallery_images`
 --
 ALTER TABLE `gallery_images`
-  MODIFY `image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `image_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT for table `login_details`

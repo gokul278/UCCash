@@ -26,7 +26,7 @@ if(move_uploaded_file($_FILES["amountimage"]["tmp_name"],"../../admin/ajax/donat
     echo json_encode($response);
     }else{
         $response["status"] = "failed";
-    echo json_encode($response);
+		die('Error: ' . $con->error);
     }
 }else{
     $response["status"] = "file error";
