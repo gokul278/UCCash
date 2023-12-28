@@ -151,11 +151,8 @@
                 <p><strong>MOBILE NUMBER      : <a href="tel:+91 9842434284"target=_blank>+91 9842434284</a></strong></p>
                 <p><strong>EMAIL ADDRESS      : <a href="mailto:uccashfoundation@gmail.com">uccashfoundation@gmail.com</a></strong></p>
                 <br><br>
-                <p style="color:#DAA520;"><b>Note : Upload your payment successful screenshot here</b></p>
-                <input type="file" id="myFile" name="amountimage" accept="image/*" required>
-               
-                
-               
+                <p style="color:#DAA520;"><b>Note : Upload your payment successful screenshot here</b>&nbsp;&nbsp;<b style="color:red">( File Size in below 1MB )</b></p>
+                <input type="file" id="myFile" name="amountimage" accept="image/*" onchange="checkFileSize()" required>
                 <div class="form-group" align="center">
                   <br>
                 <input type="submit" id="submitform"   class="btn btn-white px-5 py-2" value="submit">

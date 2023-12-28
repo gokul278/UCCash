@@ -1,3 +1,17 @@
+function checkFileSize() {
+    var fileInput = document.getElementById('myFile');
+    
+    if (fileInput.files.length > 0) {
+      var fileSizeInMB = fileInput.files[0].size / (1024 * 1024); // Convert to MB
+      var maxSizeInMB = 1; // Set your maximum file size limit in MB
+
+      if (fileSizeInMB > maxSizeInMB) {
+        alert('File size exceeds the limit of 1 MB. Please choose a smaller file.');
+        fileInput.value = ''; // Clear the file input
+      }
+    }
+  }
+
 $("#form2").submit((event) => {
     event.preventDefault();
     $("#submitform").val("Loading...");
